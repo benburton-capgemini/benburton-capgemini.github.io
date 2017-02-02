@@ -1,5 +1,7 @@
 ---
 layout: post
+title: Hello World!
+date: 2017-02-02 21:13:08
 ---
 # Hello World!
 
