@@ -10,7 +10,11 @@
   </head>
   <body>
     <section class="main-content">
-      {{ content }}
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.date }}</p>
+      <article>
+        {{ content }}
+      </article>
       <footer class="site-footer">
         <span class="site-footer-credits">{{ site.footer }}</span>
       </footer>
