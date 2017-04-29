@@ -7,6 +7,7 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/default.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <section class="page-header">
@@ -15,6 +16,12 @@
     </section>
     <section class="main-content">
       {{ content }}
+      <section class="side">
+        <h2>Full stack A-Z</h2>
+        <ol>
+          <li>Markdown</li>
+        </ol>
+      </section>
       <footer class="site-footer">
         <span class="site-footer-credits">{{ site.footer }}</span>
       </footer>
