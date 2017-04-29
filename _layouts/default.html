@@ -15,12 +15,16 @@
       <h2 class="project-tagline">{{ site.description }}</h2>
     </section>
     <section class="main-content">
-      {{ content }}
+      <div>
+        {{ content }}
+      </div>
       <section class="side">
         <h2>Full stack A-Z</h2>
-        <ol>
-          <li>Markdown</li>
-        </ol>
+        <ul>
+          <li>
+            M<br><a href="{{ site.baseurl }}{% post_url 2017-02-02-hello-world %}">Markdown</a>
+          </li>
+        </ul>
       </section>
       <footer class="site-footer">
         <span class="site-footer-credits">{{ site.footer }}</span>
